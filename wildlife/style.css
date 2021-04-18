@@ -109,7 +109,7 @@
     font-size: 17px;
     line-height: 27px;
     letter-spacing: 2px;
-    
+    padding: 120px;
     }
     .survn{
 
@@ -136,5 +136,13 @@
     text-align: center;
     color: #F7f7f7;
     }
+    .box4{
+      height: 70px;
+    }
+
+    .box3{
+      height: 50px;
+    }
+
 
    
