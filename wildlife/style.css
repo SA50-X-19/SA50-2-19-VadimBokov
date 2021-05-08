@@ -310,7 +310,6 @@ li{
   .BN{
       display: flex;
   }
-  
   .Email{
       display: flex;
       width: 510px;
@@ -367,5 +366,52 @@ li{
 .Send:hover{
   transform: scale(1.1,1.1); 
   transform: 1s;
- 
+}
+footer {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 360px;
+  float: right;
+  align-items: center;
+  justify-content: space-around;
+  background-image:url(assets/back.svg);
+  background-position:center left;
+}
+footer > nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+footer > nav > ul > li > .navLink {
+  color: #CCCCCC;
+}
+.icons{
+  display: flex;
+ justify-content: space-between;
+ width: 300px;
+}
+.navLink{
+  display: flex;
+  justify-content: space-evenly;
+  width: 110px;
+  font-size: 21px;
+}
+.logo1{
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  width:200px;
+}
+
+.lt{
+  justify-content: space-evenly;
+  width: 50px;
+}
+.navIcon {
+  display: flex;
+  width: 50px;
 }
